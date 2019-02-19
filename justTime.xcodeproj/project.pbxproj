@@ -13,6 +13,7 @@
 		216E6DDA2217EB2F00829CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216E6DD82217EB2F00829CA6 /* Main.storyboard */; };
 		216E6DDC2217EB2F00829CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216E6DDB2217EB2F00829CA6 /* Assets.xcassets */; };
 		216E6DDF2217EB2F00829CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216E6DDD2217EB2F00829CA6 /* LaunchScreen.storyboard */; };
+		216E6DE82217F1F500829CA6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216E6DE72217F1F500829CA6 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		216E6DDB2217EB2F00829CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216E6DDE2217EB2F00829CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216E6DE02217EB2F00829CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216E6DE72217F1F500829CA6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216E6DE82217F1F500829CA6 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				216E6DCE2217EB2F00829CA6 /* justTime */,
 				216E6DCD2217EB2F00829CA6 /* Products */,
+				216E6DE62217F1F500829CA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +81,14 @@
 				216E6DD02217EB2F00829CA6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		216E6DE62217F1F500829CA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216E6DE72217F1F500829CA6 /* Social.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +321,7 @@
 				216E6DE52217EB2F00829CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
